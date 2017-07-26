@@ -8,14 +8,7 @@ Checkout this repo, install dependencies, then start the gulp process with the f
 ```
 > git clone https://github.com/hungnm11/ReactJS-redux
 > cd ReactJS-redux
-> npm install
-> npm start
+> npm install or yarn install
+> npm start or yarn start
 ```
 
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-> npm install
-> npm start
-```
