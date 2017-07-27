@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect}  from 'react-redux';
-import { selectBook} from '../actions/index';
+import { selectBook } from '../actions/index';
 import { bindActionCreators } from 'redux';
 
 class BookList extends Component {
@@ -18,6 +18,7 @@ class BookList extends Component {
   }
 
   render() {
+    console.log('PROPS==>', this.props);
     return (
       <ul className="list-group col-sm-4">
         {this.renderList()}
